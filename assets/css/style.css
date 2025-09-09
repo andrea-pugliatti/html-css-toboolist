@@ -17,3 +17,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: .5rem;
+}
+
+/* Main header */
+#logo {
+    vertical-align: middle;
+    padding-left: 1.2rem;
+}
+
+#text-logo {
+    font-size: 2.3rem;
+    font-weight: 800;
+    vertical-align: middle;
+}
