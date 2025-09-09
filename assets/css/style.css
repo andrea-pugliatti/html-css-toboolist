@@ -1,0 +1,19 @@
+/* Custom variables */
+:root {
+    --bg-color: #f6f8f9;
+    --btn-primary: #47adf1;
+    --btn-outline: #c8cdd2;
+    --tbl-blue: #45abea;
+    --tbl-purple: #9c72e4;
+    --tbl-green: #64c0a9;
+    --tbl-orange: #f29d33;
+    --tbl-pink: #d863a1;
+    --tbl-lime: #b0c925;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
