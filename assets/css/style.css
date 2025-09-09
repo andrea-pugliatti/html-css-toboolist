@@ -10,6 +10,7 @@
     --tbl-orange: #f29d33;
     --tbl-pink: #d863a1;
     --tbl-lime: #b0c925;
+    --tbl-radius: 5px;
 }
 
 /* Reset */
@@ -57,7 +58,7 @@ main {
 
 /* Card */
 .card {
-    border-radius: 5px;
+    border-radius: var(--tbl-radius);
     background-color: var(--bg-secondary);
 }
 
@@ -68,11 +69,11 @@ main {
 }
 
 .btn {
-    font-size: 14px;
+    font-size: .9rem;
     text-decoration: none;
     padding: .5rem 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: var(--tbl-radius);
     border: 1px solid transparent;
 }
 
