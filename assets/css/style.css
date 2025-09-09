@@ -1,6 +1,7 @@
 /* Custom variables */
 :root {
-    --bg-color: #f6f8f9;
+    --bg-primary: #f6f8f9;
+    --bg-secondary: white;
     --btn-primary: #47adf1;
     --btn-outline: #c8cdd2;
     --tbl-blue: #45abea;
@@ -25,6 +26,21 @@ body {
     margin-top: .5rem;
 }
 
+header {
+    background-color: var(--bg-secondary);
+}
+
+main {
+    background-color: var(--bg-primary);
+    padding-top: 30px;
+}
+
+/* Utils */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 /* Main header */
 #logo {
     vertical-align: middle;
@@ -35,4 +51,36 @@ body {
     font-size: 2.3rem;
     font-weight: 800;
     vertical-align: middle;
+}
+
+/* Card */
+.card {
+    border-radius: 5px;
+    background-color: var(--bg-secondary);
+}
+
+/* Card header */
+.card-header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--bg-primary);
+}
+
+.btn {
+    font-size: 14px;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    color: var(--bg-secondary);
+    background-color: var(--btn-primary);
+}
+
+.btn-outline {
+    color: var(--btn-outline);
+    background-color: var(--bg-secondary);
+    border-color: var(--btn-outline);
 }
